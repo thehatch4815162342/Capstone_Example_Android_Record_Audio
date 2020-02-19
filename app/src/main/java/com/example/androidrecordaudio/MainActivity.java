@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     final int REQUEST_PERMISSION_CODE = 1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_main);
 
         //Request Runtime permission
